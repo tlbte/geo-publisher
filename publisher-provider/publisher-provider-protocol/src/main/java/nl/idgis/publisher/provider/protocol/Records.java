@@ -34,6 +34,6 @@ public class Records implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Records [records=" + records + "]";
+		return "Records [amount of records=" + records.size() + "]";
 	}
 }
